@@ -18,7 +18,7 @@ import { UniversalConfig } from './universal-config.interface';
 
 export class DefaultAppConfig implements AppConfig {
   production = false;
-
+  rpp=5;
   // Angular Universal settings
   universal: UniversalConfig = {
     preboot: true,
