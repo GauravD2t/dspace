@@ -34,6 +34,7 @@ interface AppConfig extends Config {
   collection: CollectionPageConfig;
   themes: ThemeConfig[];
   mediaViewer: MediaViewerConfig;
+  rpp:number;
 }
 
 const APP_CONFIG = new InjectionToken<AppConfig>('APP_CONFIG');
